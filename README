@@ -1,0 +1,10 @@
+to source the real vimrc file in ~/.vimrc include the line:
+
+source ~/.vim/vimrc
+
+assuming this git repository was pulled to ~/.vim
+if it wasn't another line is required to source the whole folder in runtime
+
+set runtimepath=~/.vim_local,$VIMRUNTIME
+
+if the repository was pulled to ~/.vim_local
