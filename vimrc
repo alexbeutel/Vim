@@ -7,6 +7,8 @@ filetype plugin on
 set cindent
 
 set nocompatible
+filetype plugin indent on
+let clj_highlight_builtins = 1
 
 set showmatch
 
@@ -19,6 +21,7 @@ set softtabstop=4
 syntax on
 
 set incsearch
+set hlsearch
 
 set number
 
@@ -34,6 +37,8 @@ if (has("gui_running"))
 	" set transparency=15
     colorscheme spectro
 endif
+
+set spell
 
 " set autochdir
 
