@@ -12,7 +12,6 @@ let clj_highlight_builtins = 1
 
 set showmatch
 
-
 set tabstop=4
 set shiftwidth=4
 set noexpandtab
@@ -23,7 +22,8 @@ syntax on
 set incsearch
 set hlsearch
 
-set number
+set relativenumber
+set undofile
 
 set mouse=a
 set virtualedit=all
@@ -50,7 +50,8 @@ nmap <S-Space> i
 nmap <Space> i
 
 nmap <S-Enter> o<Esc>
-imap ;; <Esc>
+inoremap ;; <Esc>
+inoremap jj <ESC>
 
 " map for switching splits
 map <C-J> <C-W>j<C-W>
