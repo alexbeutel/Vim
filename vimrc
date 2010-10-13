@@ -22,9 +22,6 @@ syntax on
 set incsearch
 set hlsearch
 
-set relativenumber
-set undofile
-
 set mouse=a
 set virtualedit=all
 
@@ -36,6 +33,10 @@ if (has("gui_running"))
 	set guifont=Bitstream\ Vera\ Sans\ Mono\ 10 
 	" set transparency=15
     colorscheme spectro
+	set relativenumber
+	set undofile
+else
+	set number
 endif
 
 set spell
