@@ -51,8 +51,9 @@ nmap <S-Space> i
 nmap <Space> i
 
 nmap <S-Enter> o<Esc>
-inoremap ;; <Esc>
+" inoremap ;; <Esc>
 inoremap jj <ESC>
+inoremap kk <ESC>
 
 " map for switching splits
 map <C-J> <C-W>j<C-W>
