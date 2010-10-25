@@ -33,8 +33,16 @@ if (has("gui_running"))
 	set guifont=Bitstream\ Vera\ Sans\ Mono\ 10 
 	" set transparency=15
     colorscheme spectro
-	set relativenumber
-	set undofile
+	"echo version
+	if version >= 700
+		set cursorline
+		if version >= 703
+			set relativenumber
+			set undofile
+		else
+			set number
+		endif
+	endif
 else
 	set number
 endif
