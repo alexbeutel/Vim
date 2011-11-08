@@ -35,7 +35,7 @@ if (has("gui_running"))
     colorscheme spectro
 	"echo version
 	if version >= 700
-		set cursorline
+		" set cursorline
 		if version >= 703
 			set relativenumber
 			set undofile
