@@ -32,7 +32,8 @@ if (has("gui_running"))
     set guioptions=-M
 	set guifont=Bitstream\ Vera\ Sans\ Mono\ 10 
 	" set transparency=15
-    colorscheme spectro
+	" colorscheme spectro
+    colorscheme Monokai2
 	"echo version
 	if version >= 700
 		" set cursorline
